@@ -1,6 +1,3 @@
-#load libraries
-library(tools)
-
 #set working directory// change to your directory
 setwd('C:/Users/jessi/OneDrive/Desktop/Current_projects/hmw_mammals_vol920200427_RA')
 
@@ -8,8 +5,8 @@ setwd('C:/Users/jessi/OneDrive/Desktop/Current_projects/hmw_mammals_vol920200427
 bats_names <- tools::file_path_sans_ext(list.files("dig_species", pattern = "*.shp"))
 bats_names = as.data.frame(bats_names)
 
-#select random 126
-bats_names_rand <- sample_n(bats_names, 126)
+#select random number of species after determining how many make up 10-30% of your dataset 
+bats_names_rand <- sample_n(bats_names, 0)
 unique(bats_names_rand)
 
 #save csv in working directory
