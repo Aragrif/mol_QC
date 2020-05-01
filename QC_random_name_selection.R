@@ -1,3 +1,7 @@
+##create a list of random species to QC based on a digitized dataset
+##Griffy J. Vigneron 
+##2020
+
 #set working directory// change to your directory
 setwd('C:/Users/jessi/OneDrive/Desktop/Current_projects/hmw_mammals_vol920200427_RA')
 
